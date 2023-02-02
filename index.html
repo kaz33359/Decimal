@@ -35,6 +35,10 @@
 		<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72-white.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114-white.png">
 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
         rel="stylesheet">
@@ -77,22 +81,21 @@
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
-        <header class="main-header clearfix">
-            <nav class="main-menu clearfix">
+        <header class="main-header main-header--three clearfix">
+            <nav class="main-menu main-menu--three clearfix">
                 <div class="main-menu-wrapper clearfix">
+                    <div class="main-menu-wrapper__logo">
+                        <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                    </div>
                     <div class="main-menu-wrapper__left">
-                        <div class="main-menu-wrapper__logo">
-                            <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
-                        </div>
-                        <div class="main-menu-wrapper__main-menu">
+                        <div class=" main-menu-wrapper__main-menu">
                             <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                             <ul class="main-menu__list">
-
-                                <li class="dropdown megamenu">
+                                <li class="dropdown current megamenu">
                                     <a href="index.html">Home </a>
-                                    <ul>
+                                    <!-- <ul>
                                         <li>
-                                            <!-- <section class="home-showcase">
+                                            <section class="home-showcase">
                                                 <div class="container">
                                                     <div class="home-showcase__inner">
                                                         <div class="row">
@@ -172,12 +175,10 @@
                                                     </div>
 
                                                 </div>
-                                            </section> -->
+                                            </section>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
-
-
                                 <li class="dropdown">
                                     <a href="about.html">About</a>
                                     <!-- <ul>
@@ -192,7 +193,7 @@
                                 </li>
                                 <li class="dropdown">
                                     <a href="services.html">Services</a>
-                                    <ul>
+                                    <!-- <ul>
                                         <li><a href="services.html">Services</a></li>
                                         <li><a href="services2.html">Services Two</a></li>
                                         <li><a href="mobile-applications.html">Mobile Applications </a></li>
@@ -201,7 +202,7 @@
                                         <li><a href="website-development.html">Website Developments </a></li>
                                         <li><a href="social-marketing.html">Social Marketings </a></li>
                                         <li><a href="content-writing.html">Content Writtings </a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="dropdown">
                                     <a href="#">Acadamy</a>
@@ -220,12 +221,12 @@
                                     </ul> -->
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#">Blog</a>
-                                    <ul>
+                                    <a href="blog-details.html">Blog</a>
+                                    <!-- <ul>
                                         <li><a href="blog.html">Blog Posts</a></li>
                                         <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
                                         <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -253,8 +254,10 @@
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
         </div><!-- /.stricky-header -->
 
+
+
         <!--Main Slider Start-->
-        <section class="main-slider">
+        <section class="main-slider main-slider--three">
             <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
     "effect": "fade",
      "pagination": {
@@ -270,6 +273,55 @@
         "delay": 5000
     }}'>
                 <div class="swiper-wrapper">
+                    <!--Start Swiper Slide -->
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/update1.0/backgrounds/main-slider-3-1.jpg);">
+                        </div>
+                        <!-- /.image-layer -->
+                        <div class="main-slider-border"></div>
+                        <div class="main-slider-border main-slider-border-two"></div>
+                        <div class="main-slider-border main-slider-border-three"></div>
+                        <div class="main-slider-border main-slider-border-four"></div>
+                        <div class="main-slider-border main-slider-border-five"></div>
+                        <div class="main-slider-border main-slider-border-six"></div>
+
+                        <div class="main-slider--three__shape1"></div>
+                        <div class="main-slider--three__shape2"></div>
+                        <div class="main-slider--three__shape3"></div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="main-slider__content">
+                                        <h2>We Solve Their <br>Complex Problems</h2>
+                                        <p>Veniam quis nostrud exercitation llamco laboris nis aliquip conseqa <br> rure
+                                            dolorn repreh derit luptate velit excepteur.</p>
+                                        <div class="main-slider--three__btn">
+                                            <div class="main-slider--three__btn1">
+                                                <a href="about.html" class="thm-btn">Discover More</a>
+                                            </div>
+                                            <div class="main-slider--three__btn2">
+                                                <div class="video-box">
+                                                    <a class="video-popup" title="Video Gallery"
+                                                        href="https://www.youtube.com/watch?v=p25gICT63ek"
+                                                        style="visibility: visible;">
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="title-box">
+                                                    <h5>Watch Video</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Swiper Slide -->
+
+                    <!--Start Swiper Slide -->
                     <div class="swiper-slide">
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/main-slider-1-1.jpg);">
@@ -282,22 +334,42 @@
                         <div class="main-slider-border main-slider-border-five"></div>
                         <div class="main-slider-border main-slider-border-six"></div>
 
-                        <div class="main-slider-shape-1"></div>
-                        <div class="main-slider-shape-2"></div>
-                        <div class="main-slider-shape-3"></div>
+                        <div class="main-slider--three__shape1"></div>
+                        <div class="main-slider--three__shape2"></div>
+                        <div class="main-slider--three__shape3"></div>
 
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="main-slider__content">
-                                        <p>Welcome to our digital marketing agency</p>
-                                        <h2>the Right design <br> for a digital <br> marketing</h2>
-                                        <a href="about.html" class="thm-btn">Discover More</a>
+                                        <h2>We Solve Their <br>Complex Problems</h2>
+                                        <p>Veniam quis nostrud exercitation llamco laboris nis aliquip conseqa <br> rure
+                                            dolorn repreh derit luptate velit excepteur.</p>
+                                        <div class="main-slider--three__btn">
+                                            <div class="main-slider--three__btn1">
+                                                <a href="about.html" class="thm-btn">Discover More</a>
+                                            </div>
+                                            <div class="main-slider--three__btn2">
+                                                <div class="video-box">
+                                                    <a class="video-popup" title="Video Gallery"
+                                                        href="https://www.youtube.com/watch?v=p25gICT63ek"
+                                                        style="visibility: visible;">
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="title-box">
+                                                    <h5>Watch Video</h5>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!--End Swiper Slide -->
+
+                    <!--Start Swiper Slide -->
                     <div class="swiper-slide">
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/main-slider-1-2.jpg);">
@@ -310,198 +382,537 @@
                         <div class="main-slider-border main-slider-border-five"></div>
                         <div class="main-slider-border main-slider-border-six"></div>
 
-                        <div class="main-slider-shape-1"></div>
-                        <div class="main-slider-shape-2"></div>
-                        <div class="main-slider-shape-3"></div>
+                        <div class="main-slider--three__shape1"></div>
+                        <div class="main-slider--three__shape2"></div>
+                        <div class="main-slider--three__shape3"></div>
 
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="main-slider__content">
-                                        <p>Welcome to our digital marketing agency</p>
-                                        <h2>the Right design <br> for a digital <br> marketing</h2>
-                                        <a href="about.html" class="thm-btn">Discover More</a>
+                                        <h2>We Solve Their <br>Complex Problems</h2>
+                                        <p>Veniam quis nostrud exercitation llamco laboris nis aliquip conseqa <br> rure
+                                            dolorn repreh derit luptate velit excepteur.</p>
+                                        <div class="main-slider--three__btn">
+                                            <div class="main-slider--three__btn1">
+                                                <a href="about.html" class="thm-btn">Discover More</a>
+                                            </div>
+                                            <div class="main-slider--three__btn2">
+                                                <div class="video-box">
+                                                    <a class="video-popup" title="Video Gallery"
+                                                        href="https://www.youtube.com/watch?v=p25gICT63ek"
+                                                        style="visibility: visible;">
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="title-box">
+                                                    <h5>Watch Video</h5>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
-                        <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-1-3.jpg);">
-                        </div>
-                        <!-- /.image-layer -->
-                        <div class="main-slider-border"></div>
-                        <div class="main-slider-border main-slider-border-two"></div>
-                        <div class="main-slider-border main-slider-border-three"></div>
-                        <div class="main-slider-border main-slider-border-four"></div>
-                        <div class="main-slider-border main-slider-border-five"></div>
-                        <div class="main-slider-border main-slider-border-six"></div>
-
-                        <div class="main-slider-shape-1"></div>
-                        <div class="main-slider-shape-2"></div>
-                        <div class="main-slider-shape-3"></div>
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="main-slider__content">
-                                        <p>Welcome to our digital marketing agency</p>
-                                        <h2>the Right design <br> for a digital <br> marketing</h2>
-                                        <a href="about.html" class="thm-btn">Discover More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!--End Swiper Slide -->
                 </div>
                 <!-- If we need navigation buttons -->
                 <div class="swiper-pagination" id="main-slider-pagination"></div>
-                <div class="main-slider__nav">
+                <div class="main-slider__nav main-slider__nav--two">
                     <div class="swiper-button-prev" id="main-slider__swiper-button-next">
-                        <i class="icon-right-arrow icon-left-arrow"></i>Prev
+                        <i class="icon-right-arrow icon-left-arrow"></i>
                     </div>
                     <div class="swiper-button-next" id="main-slider__swiper-button-prev">
-                        Next <i class="icon-right-arrow"></i>
+                        <i class="icon-right-arrow"></i>
                     </div>
                 </div>
             </div>
         </section>
         <!--Main Slider End-->
 
-        <!--Services One Start-->
-        <section class="services-one">
-            <div class="services-one-shape wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms"><img
-                    class="float-bob-x" src="assets/images/shapes/services-one-shape.png" alt=""></div>
+        <!--Start Features One -->
+        <section class="features-one">
+            <div class="auto-container">
+                <ul class="row list-unstyled">
+                    <!--Start Features One Single-->
+                    <li class="col-xl-3 col-lg-6 features-one__single wow fadeInUp" data-wow-delay="100ms">
+                        <div class="features-one__single-inner text-center">
+                            <div class="features-one__icon">
+                                <span class="icon-checking"></span>
+                            </div>
+                            <h3 class="features-one__title"><a href="#">free quotes</a></h3>
+                            <p class="features-one__text">Lorem ium dolor sit ametad <br>pisicing elit sed do ut.</p>
+                        </div>
+                    </li>
+                    <!--End Features One Single-->
+
+                    <!--Start Features One Single-->
+                    <li class="col-xl-3 col-lg-6 features-one__single wow fadeInUp" data-wow-delay="200ms">
+                        <div class="features-one__single-inner text-center">
+                            <div class="features-one__icon">
+                                <span class="icon-conversation"></span>
+                            </div>
+                            <h3 class="features-one__title"><a href="#">super experts</a></h3>
+                            <p class="features-one__text">Lorem ium dolor sit ametad <br>pisicing elit sed do ut.</p>
+                        </div>
+                    </li>
+                    <!--End Features One Single-->
+
+                    <!--Start Features One Single-->
+                    <li class="col-xl-3 col-lg-6 features-one__single wow fadeInUp" data-wow-delay="300ms">
+                        <div class="features-one__single-inner text-center">
+                            <div class="features-one__icon">
+                                <span class="icon-two-social-media"></span>
+                            </div>
+                            <h3 class="features-one__title"><a href="#">best stretagy</a></h3>
+                            <p class="features-one__text">Lorem ium dolor sit ametad <br>pisicing elit sed do ut.</p>
+                        </div>
+                    </li>
+                    <!--End Features One Single-->
+
+                    <!--Start Features One Single-->
+                    <li class="col-xl-3 col-lg-6 features-one__single wow fadeInUp" data-wow-delay="400ms">
+                        <div class="features-one__single-inner text-center">
+                            <div class="features-one__icon">
+                                <span class="icon-recommend"></span>
+                            </div>
+                            <h3 class="features-one__title"><a href="#">quality work</a></h3>
+                            <p class="features-one__text">Lorem ium dolor sit ametad <br>pisicing elit sed do ut.</p>
+                        </div>
+                    </li>
+                    <!--End Features One Single-->
+                </ul>
+            </div>
+        </section>
+        <!--End Features One -->
+
+        <!--Start Welcome One -->
+        <section class="welcome-one">
             <div class="container">
-                <div class="services-one__top">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="services-one__top-left">
-                                <div class="section-title text-left">
-                                    <span class="section-title__tagline">our services list</span>
-                                    <h2 class="section-title__title">what we’re offering</h2>
+                <div class="row">
+                    <!--Start Welcome One Img-->
+                    <div class="col-xl-6">
+                        <div class="welcome-one__img wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                            <div class="welcome-one__img-inner">
+                                <img src="assets/images/update1.0/resources/welcome-v1-img1.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Welcome One Img-->
+
+                    <!--Start Welcome One Content-->
+                    <div class="col-xl-6">
+                        <div class="welcome-one__content">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">welcome to qutiiz</span>
+                                <h2 class="section-title__title">Work together for your <br> business success</h2>
+                            </div>
+                            <p class="welcome-one__text">Lorem ipsum dolor sit amet nsectetur cing elituspe ndisse
+                                suscipit sagitis leo sit.
+                                Simply free text available ornare eu est. Maecenas maximus, mi eget euismod lacinia.</p>
+
+                            <div class="welcome-one__content-bottom-content">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="welcome-one__content-bottom-content-single">
+                                            <h3>Free Consultation</h3>
+                                            <p>Lorem ipsum is not dolor sit amet, consectetur notted.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="welcome-one__content-bottom-content-single">
+                                            <h3>Best team members</h3>
+                                            <p>Lorem ipsum is not dolor sit amet, consectetur notted.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="services-one__top-text-box">
-                                <p class="services-one__top-text">There are many variations of passages of Lorem Ipsum
-                                    available, but the majority have suffered alteration in some form.</p>
-                            </div>
-                        </div>
                     </div>
-                </div>
-                <div class="services-one__bottom">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <ul class="list-unstyled services-one__list">
-                                <li class="services-one__single wow fadeInUp" data-wow-delay="100ms">
-                                    <div class="services-one__icon">
-                                        <span class="icon-online-shopping"></span>
-                                    </div>
-                                    <div class="services-one__count"></div>
-                                    <h3 class="services-one__title"><a href="website-development.html">Ui / Ux <br>
-                                            Creative
-                                            design</a></h3>
-                                    <a class="services-one__arrow" href="website-development.html"><span
-                                            class="icon-right-arrow"></span></a>
-                                </li>
-                                <li class="services-one__single wow fadeInUp" data-wow-delay="200ms">
-                                    <div class="services-one__icon">
-                                        <span class="icon-growth"></span>
-                                    </div>
-                                    <div class="services-one__count"></div>
-                                    <h3 class="services-one__title"><a href="graphic-design.html">Visual <br> graphic
-                                            design</a></h3>
-                                    <a class="services-one__arrow" href="graphic-design.html"><span
-                                            class="icon-right-arrow"></span></a>
-                                </li>
-                                <li class="services-one__single wow fadeInUp" data-wow-delay="300ms">
-                                    <div class="services-one__icon">
-                                        <span class="icon-webpage"></span>
-                                    </div>
-                                    <div class="services-one__count"></div>
-                                    <h3 class="services-one__title"><a href="digital-marketing.html">strategy & <br>
-                                            Digital marketing</a></h3>
-                                    <a class="services-one__arrow" href="digital-marketing.html"><span
-                                            class="icon-right-arrow"></span></a>
-                                </li>
-                                <li class="services-one__single wow fadeInUp" data-wow-delay="400ms">
-                                    <div class="services-one__icon">
-                                        <span class="icon-front-end"></span>
-                                    </div>
-                                    <div class="services-one__count"></div>
-                                    <h3 class="services-one__title"><a href="social-marketing.html">effective <br>
-                                            business growth</a></h3>
-                                    <a class="services-one__arrow" href="social-marketing.html"><span
-                                            class="icon-right-arrow"></span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-one__find-solutions">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <p class="services-one__find-solutions-text">qutiiz services built specifically for your
-                                business. <a href="about.html">Find Your Solution</a></p>
-                        </div>
-                    </div>
+                    <!--End Welcome One Content-->
                 </div>
             </div>
         </section>
-        <!--Services One End-->
+        <!--End Welcome One -->
 
-        <!--Get To Know Start-->
-        <section class="get-to-know">
+        <!--Start Services Three-->
+        <section class="services-three">
+            <div class="services-three__bg wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms"></div>
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline">our services list</span>
+                    <h2 class="section-title__title">What we’re offering</h2>
+                </div>
+                <div class="row">
+                    <!--Start Services Three Single-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms">
+                        <div class="services-three__single">
+                            <div class="services-three__single-img">
+                                <div class="services-three__single-img-inner">
+                                    <img src="assets/images/update1.0/services/services-v3-img1.jpg" alt="" />
+                                </div>
+                                <div class="services-three__icon">
+                                    <span class="icon-online-shopping"></span>
+                                </div>
+                            </div>
+                            <div class="services-three__single-content">
+                                <h2 class="services-three__title"><a href="website-development.html">Ui / Ux <br>
+                                        Creative
+                                        design</a></h2>
+                                <p class="services-three__text">Lorem ipsum dolor sit amet, consect etur adi pisicing
+                                    elit sed do dunt ut labore.</p>
+                                <a class="services-three__arrow" href="website-development.html"><span
+                                        class="icon-right-arrow"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Services Three Single-->
+                    <!--Start Services Three Single-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="200ms">
+                        <div class="services-three__single">
+                            <div class="services-three__single-img">
+                                <div class="services-three__single-img-inner">
+                                    <img src="assets/images/update1.0/services/services-v3-img2.jpg" alt="" />
+                                </div>
+                                <div class="services-three__icon">
+                                    <span class="icon-growth"></span>
+                                </div>
+                            </div>
+                            <div class="services-three__single-content">
+                                <h2 class="services-three__title"><a href="website-development.html">Visual <br>graphic
+                                        design</a></h2>
+                                <p class="services-three__text">Lorem ipsum dolor sit amet, consect etur adi pisicing
+                                    elit sed do dunt ut labore.</p>
+                                <a class="services-three__arrow" href="website-development.html"><span
+                                        class="icon-right-arrow"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Services Three Single-->
+                    <!--Start Services Three Single-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="400ms">
+                        <div class="services-three__single">
+                            <div class="services-three__single-img">
+                                <div class="services-three__single-img-inner">
+                                    <img src="assets/images/update1.0/services/services-v3-img3.jpg" alt="" />
+                                </div>
+                                <div class="services-three__icon">
+                                    <span class="icon-webpage"></span>
+                                </div>
+                            </div>
+                            <div class="services-three__single-content">
+                                <h2 class="services-three__title"><a href="website-development.html">strategy & <br>
+                                        Digital marketing</a></h2>
+                                <p class="services-three__text">Lorem ipsum dolor sit amet, consect etur adi pisicing
+                                    elit sed do dunt ut labore.</p>
+                                <a class="services-three__arrow" href="website-development.html"><span
+                                        class="icon-right-arrow"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Services Three Single-->
+                </div>
+            </div>
+        </section>
+        <!--End Services Three-->
+
+        <!--Start Watch Video One -->
+        <section class="watch-video-one">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6">
-                        <div class="get-to-know__left wow slideInLeft" data-wow-delay="100ms"
-                            data-wow-duration="2500ms">
-                            <div class="get-to-know__img">
-                                <img src="assets/images/resources/get-to-know-img.jpg" alt="">
-                                <div class="get-to-know__video-link">
+                    <div class="col-xl-12">
+                        <div class="watch-video-one__img"
+                            style="background-image: url(assets/images/update1.0/backgrounds/watch-video-v1-img1.jpg);">
+                            <div class="watch-video-one__inner">
+                                <div class="watch-video-one__video-link">
                                     <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                                        <div class="get-to-know__video-icon">
+                                        <div class="watch-video-one__video-icon">
                                             <span class="icon-play-button"></span>
+                                            <i class="ripple"></i>
                                         </div>
                                     </a>
                                 </div>
+                                <h2 class="watch-video-one__title">Watch Video</h2>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6">
-                        <div class="get-to-know__right">
-                            <div class="get-to-know-big-text">Qutiiz</div>
+                </div>
+            </div>
+        </section>
+        <!--End Watch Video One -->
+
+        <!--Start Why Choose Three -->
+        <section class="why-choose-three">
+            <div class="container">
+                <div class="row">
+                    <!--Start Why Choose Three Left-->
+                    <div class="col-xl-6  wow fadeInRight  animated" data-animation="fadeInRight">
+                        <div class="why-choose-three__left">
                             <div class="section-title text-left">
-                                <span class="section-title__tagline">get to know us</span>
-                                <h2 class="section-title__title">We’re ready to grow your business with us</h2>
+                                <span class="section-title__tagline">company benefits</span>
+                                <h2 class="section-title__title">We care about every <br> stage in a customer <br>
+                                    journey</h2>
                             </div>
-                            <p class="get-to-know__text-1">We’re committed to delivering the best digital marketing for
-                                your businesses</p>
-                            <p class="get-to-know__text-2">There are many variations of passages of Lorem Ipsum
-                                available, but the majority have suffered alteration in some form, simply free text by
-                                injected humour, or randomised.</p>
-                            <div class="get-to-know__progress">
-                                <div class="get-to-know__progress-single">
-                                    <h4 class="get-to-know__progress-title">Digital marketing</h4>
-                                    <div class="bar">
-                                        <div class="bar-inner count-bar" data-percent="70%">
-                                            <div class="count-text">70%</div>
+                            <h2 class="why-choose-three__text1">providing innovative Website solutions <br>for future.
+                            </h2>
+                            <p class="why-choose-three__text2">There are many variations of passages available but
+                                majority have suffered alteration in
+                                some form, by hum randomised words which don't look even slightly believable.</p>
+                        </div>
+                    </div>
+                    <!--End Why Choose Three Left-->
+
+                    <!--Start Why Choose Three Tab Box-->
+                    <div class="col-xl-6 wow fadeInLeft animated" data-animation="fadeInLeft">
+                        <div class="why-choose-three__tab tabs-box">
+                            <ul class="tab-buttons clearfix list-unstyled">
+                                <li data-tab="#mission" class="tab-btn thm-btn active-btn"><span>Our Mission</span></li>
+                                <li data-tab="#vision" class="tab-btn thm-btn"><span>Our vision</span>
+                                </li>
+                                <li data-tab="#history" class="tab-btn thm-btn"><span>Our history</span></li>
+                            </ul>
+                            <div class="tabs-content">
+                                <!--Start Tab-->
+                                <div class="tab active-tab" id="mission">
+                                    <div class="why-choose-three__tab-inner">
+                                        <p class="why-choose-three__tab-inner-text">There are many variations of
+                                            passages of available but majority alteration in some form, by humou or
+                                            randomised words
+                                            which don't look even slightly believable. There are many variations of
+                                            passages of available.</p>
+                                        <div class="why-choose-three__tab-inner-bottom">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6 col-md-6">
+                                                    <div class="why-choose-three__tab-inner-bottom-img">
+                                                        <img src="assets/images/update1.0/resources/why-choose-v3-img1.jpg"
+                                                            alt="" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-6 col-lg-6 col-md-6">
+                                                    <div class="why-choose-three__tab-inner-bottom-text">
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>Nsectetur
+                                                                    cing elit</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>Suspe ndisse
+                                                                    suscip sagittis leo</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>Entum estib
+                                                                    dignissim posuere</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>If you are
+                                                                    going to use a pass</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="get-to-know__person">
-                                <div class="get-to-know__person-img">
-                                    <img src="assets/images/resources/get-to-know-person-img.jpg" alt="">
+                                <!--End Tab-->
+
+                                <!--Start Tab-->
+                                <div class="tab" id="vision">
+                                    <div class="why-choose-three__tab-inner">
+                                        <p class="why-choose-three__tab-inner-text">There are many variations of
+                                            passages of available but majority alteration in some form, by humou or
+                                            randomised words
+                                            which don't look even slightly believable. There are many variations of
+                                            passages of available.</p>
+                                        <div class="why-choose-three__tab-inner-bottom">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6 col-md-6">
+                                                    <div class="why-choose-three__tab-inner-bottom-img">
+                                                        <img src="assets/images/update1.0/resources/why-choose-v3-img1.jpg"
+                                                            alt="" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-6 col-lg-6 col-md-6">
+                                                    <div class="why-choose-three__tab-inner-bottom-text">
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>Nsectetur
+                                                                    cing elit</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>Suspe ndisse
+                                                                    suscip sagittis leo</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>Entum estib
+                                                                    dignissim posuere</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>If you are
+                                                                    going to use a pass</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="get-to-know__person-content">
-                                    <h2 class="get-to-know__person-name">John Smith</h2>
-                                    <p class="get-to-know__person-founder">CEO & co Founder</p>
+                                <!--End Tab-->
+
+                                <!--Start Tab-->
+                                <div class="tab" id="history">
+                                    <div class="why-choose-three__tab-inner">
+                                        <p class="why-choose-three__tab-inner-text">There are many variations of
+                                            passages of available but majority alteration in some form, by humou or
+                                            randomised words
+                                            which don't look even slightly believable. There are many variations of
+                                            passages of available.</p>
+                                        <div class="why-choose-three__tab-inner-bottom">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6 col-md-6">
+                                                    <div class="why-choose-three__tab-inner-bottom-img">
+                                                        <img src="assets/images/update1.0/resources/why-choose-v3-img1.jpg"
+                                                            alt="" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-6 col-lg-6 col-md-6">
+                                                    <div class="why-choose-three__tab-inner-bottom-text">
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>Nsectetur
+                                                                    cing elit</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>Suspe ndisse
+                                                                    suscip sagittis leo</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>Entum estib
+                                                                    dignissim posuere</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="fa fa-check-circle"></span>If you are
+                                                                    going to use a pass</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End Tab-->
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!--Start Why Choose Three Tab Box-->
+                </div>
+            </div>
+        </section>
+        <!--End Why Choose Three -->
+
+
+        <!--Start Project One-->
+        <section class="project-one project-one--three">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline">recent projects</span>
+                    <h2 class="section-title__title">work showcase</h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <ul class="project-filter style1 post-filter has-dynamic-filters-counter list-unstyled">
+                            <li data-filter=".filter-item" class="active"><span class="filter-text">All</span></li>
+                            <li data-filter=".bra"><span class="filter-text">Branding</span></li>
+                            <li data-filter=".photo"><span class="filter-text">Photography</span></li>
+                            <li data-filter=".web"><span class="filter-text">Web Design</span></li>
+                            <li data-filter=".app"><span class="filter-text last-pd-none">Apps</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row filter-layout masonary-layout">
+                    <div class="col-xl-4 col-lg-6 col-md-6 filter-item bra app web">
+                        <!--Portfolio One Single-->
+                        <div class="project-one__single">
+                            <div class="project-one__img">
+                                <img src="assets/images/update1.0/project/project-v3-img1.jpg" alt="">
+                                <div class="project-one__hover">
+                                    <p class="project-one__tagline">Graphic</p>
+                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 filter-item bra web">
+                        <!--Portfolio One Single-->
+                        <div class="project-one__single">
+                            <div class="project-one__img">
+                                <img src="assets/images/update1.0/project/project-v3-img2.jpg" alt="">
+                                <div class="project-one__hover project-one__hover-pl-40">
+                                    <p class="project-one__tagline">Graphic</p>
+                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 filter-item bra photo web">
+                        <!--Portfolio One Single-->
+                        <div class="project-one__single">
+                            <div class="project-one__img">
+                                <img src="assets/images/update1.0/project/project-v3-img3.jpg" alt="">
+                                <div class="project-one__hover project-one__hover-pl-40">
+                                    <p class="project-one__tagline">Graphic</p>
+                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 filter-item bra web">
+                        <!--Portfolio One Single-->
+                        <div class="project-one__single">
+                            <div class="project-one__img">
+                                <img src="assets/images/update1.0/project/project-v3-img4.jpg" alt="">
+                                <div class="project-one__hover project-one__hover-pl-40">
+                                    <p class="project-one__tagline">Graphic</p>
+                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 filter-item app photo">
+                        <!--Portfolio One Single-->
+                        <div class="project-one__single">
+                            <div class="project-one__img">
+                                <img src="assets/images/update1.0/project/project-v3-img5.jpg" alt="">
+                                <div class="project-one__hover project-one__hover-pl-40">
+                                    <p class="project-one__tagline">Graphic</p>
+                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 filter-item app photo">
+                        <!--Portfolio One Single-->
+                        <div class="project-one__single">
+                            <div class="project-one__img">
+                                <img src="assets/images/update1.0/project/project-v3-img6.jpg" alt="">
+                                <div class="project-one__hover">
+                                    <p class="project-one__tagline">Graphic</p>
+                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
+                                    </h3>
                                 </div>
                             </div>
                         </div>
@@ -509,37 +920,37 @@
                 </div>
             </div>
         </section>
-        <!--Get To Know End-->
+        <!--End Project One-->
 
-        <!--Brand One Start-->
-        <section class="brand-one">
+        <!--Start Brand One -->
+        <section class="brand-one brand-two">
             <div class="container">
                 <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
-                    "0": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 2
-                    },
-                    "375": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 2
-                    },
-                    "575": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 3
-                    },
-                    "767": {
-                        "spaceBetween": 50,
-                        "slidesPerView": 4
-                    },
-                    "991": {
-                        "spaceBetween": 50,
-                        "slidesPerView": 5
-                    },
-                    "1199": {
-                        "spaceBetween": 100,
-                        "slidesPerView": 5
-                    }
-                }}'>
+            "0": {
+                "spaceBetween": 30,
+                "slidesPerView": 2
+            },
+            "375": {
+                "spaceBetween": 30,
+                "slidesPerView": 2
+            },
+            "575": {
+                "spaceBetween": 30,
+                "slidesPerView": 3
+            },
+            "767": {
+                "spaceBetween": 50,
+                "slidesPerView": 4
+            },
+            "991": {
+                "spaceBetween": 50,
+                "slidesPerView": 5
+            },
+            "1199": {
+                "spaceBetween": 100,
+                "slidesPerView": 5
+            }
+        }}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/images/brand/brand-1-1.png" alt="">
@@ -575,224 +986,63 @@
                 </div>
             </div>
         </section>
-        <!--Brand One End-->
+        <!--End Brand One-->
 
-        <!--Project One Start-->
-        <section class="project-one">
+        <!--Start Qutiiz Ready Two-->
+        <section class="qutiiz-ready-two qutiiz-ready-two--three">
+            <div class="qutiiz-ready-two-bg-box">
+                <div class="qutiiz-ready-two-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+                    style="background-image: url(assets/images/backgrounds/qutiiz-ready-two-bg.jpg)"></div>
+            </div>
             <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline">recent projects</span>
-                    <h2 class="section-title__title">work showcase</h2>
-                </div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <ul class="project-filter style1 post-filter has-dynamic-filters-counter list-unstyled">
-                            <li data-filter=".filter-item" class="active"><span class="filter-text">All</span></li>
-                            <li data-filter=".bra"><span class="filter-text">Branding</span></li>
-                            <li data-filter=".photo"><span class="filter-text">Photography</span></li>
-                            <li data-filter=".web"><span class="filter-text">Web Design</span></li>
-                            <li data-filter=".app"><span class="filter-text last-pd-none">Apps</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row filter-layout masonary-layout">
-                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item bra photo web">
-                        <!--Portfolio One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__img">
-                                <img src="assets/images/resources/project-one-img-1.jpg" alt="">
-                                <div class="project-one__hover project-one__hover-pl-40">
-                                    <p class="project-one__tagline">Graphic</p>
-                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 filter-item bra app web">
-                        <!--Portfolio One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__img">
-                                <img src="assets/images/resources/project-one-img-2.jpg" alt="">
-                                <div class="project-one__hover">
-                                    <p class="project-one__tagline">Graphic</p>
-                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item bra web">
-                        <!--Portfolio One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__img">
-                                <img src="assets/images/resources/project-one-img-3.jpg" alt="">
-                                <div class="project-one__hover project-one__hover-pl-40">
-                                    <p class="project-one__tagline">Graphic</p>
-                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item bra photo web">
-                        <!--Portfolio One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__img">
-                                <img src="assets/images/resources/project-one-img-4.jpg" alt="">
-                                <div class="project-one__hover project-one__hover-pl-40">
-                                    <p class="project-one__tagline">Graphic</p>
-                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item bra web">
-                        <!--Portfolio One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__img">
-                                <img src="assets/images/resources/project-one-img-5.jpg" alt="">
-                                <div class="project-one__hover project-one__hover-pl-40">
-                                    <p class="project-one__tagline">Graphic</p>
-                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item app photo">
-                        <!--Portfolio One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__img">
-                                <img src="assets/images/resources/project-one-img-6.jpg" alt="">
-                                <div class="project-one__hover project-one__hover-pl-40">
-                                    <p class="project-one__tagline">Graphic</p>
-                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 filter-item app photo">
-                        <!--Portfolio One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__img">
-                                <img src="assets/images/resources/project-one-img-7.jpg" alt="">
-                                <div class="project-one__hover">
-                                    <p class="project-one__tagline">Graphic</p>
-                                    <h3 class="project-one__title"><a href="project-details.html">Fimlor Experience</a>
-                                    </h3>
-                                </div>
-                            </div>
+                        <div class="qutiiz-ready-two__inner">
+                            <h2 class="qutiiz-ready-two__title">qutiiz is a ready to protect <br> your businesses</h2>
+                            <a href="about.html" class="qutiiz-ready-two__btn thm-btn">Discover more</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--Project One End-->
+        <!--End Qutiiz Ready -->
 
-        <!--Counter One Start-->
-        <section class="counter-one">
-            <div class="counter-one-shape-1"></div>
-            <div class="counter-one-shape-2"></div>
-            <div class="counter-one-shape-3"></div>
+        <!--Start Counter Two-->
+        <section class="counter-two counter-two--three">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <ul class="list-unstyled counter-one__list">
-                            <li class="counter-one__single wow fadeInUp" data-wow-delay="100ms">
-                                <div class="counter-one__icon">
-                                    <span class="icon-checking"></span>
-                                </div>
-                                <h3 class="odometer" data-count="6420">00</h3>
-                                <p class="counter-one__text">Projects Completed</p>
-                            </li>
-                            <li class="counter-one__single wow fadeInUp" data-wow-delay="200ms">
-                                <div class="counter-one__icon">
-                                    <span class="icon-recommend"></span>
-                                </div>
-                                <h3 class="odometer" data-count="9280">00</h3>
-                                <p class="counter-one__text">Satisfied Clients</p>
-                            </li>
-                            <li class="counter-one__single wow fadeInUp" data-wow-delay="300ms">
-                                <div class="counter-one__icon">
-                                    <span class="icon-consulting"></span>
-                                </div>
-                                <h3 class="odometer" data-count="380">00</h3>
-                                <p class="counter-one__text">Expert Teams</p>
-                            </li>
-                            <li class="counter-one__single wow fadeInUp" data-wow-delay="400ms">
-                                <div class="counter-one__icon">
-                                    <span class="icon-increment"></span>
-                                </div>
-                                <h3 class="odometer" data-count="8760">00</h3>
-                                <p class="counter-one__text">repeat customers</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Counter One End-->
-
-        <!--Why Choose One Start-->
-        <section class="why-choose-one">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="why-choose-one__left wow fadeInLeft" data-wow-delay="100ms"
-                            data-wow-duration="2500ms">
-                            <div class="why-choose-one__img">
-                                <img src="assets/images/resources/why-choose-one-img.jpg" alt="">
+                <div class="counter-two__inner wow fadeInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
+                    <div class="counter-two-shape1"></div>
+                    <div class="counter-two-shape2"></div>
+                    <div class="counter-two-shape3"></div>
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <div class="counter-two__left">
+                                <h2 class="counter-two__title">Let’s Start Your <br> Project with <br> qutiiz</h2>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="why-choose-one__right">
-                            <div class="section-title text-left">
-                                <span class="section-title__tagline">company benefits</span>
-                                <h2 class="section-title__title">Why You should choose qutiiz services?</h2>
-                            </div>
-                            <p class="why-choose-one__text">Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic
-                                tudin, lorem is simply free text quis bibendum. Which don’t look even slightly
-                                believable. If you are going to use a passage.</p>
-                            <div class="why-choose-one__bottom">
-                                <div class="why-choose-one__bottom-img">
-                                    <img src="assets/images/resources/why-choose-one-bottom-img.jpg" alt="">
-                                </div>
-                                <ul class="list-unstyled why-choose-one__points">
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-draw-check-mark"></span>
+                        <div class="col-xl-8">
+                            <div class="counter-two__right">
+                                <ul class="list-unstyled counter-two__list">
+                                    <li class="counter-two__single wow fadeInUp" data-wow-delay="100ms">
+                                        <div class="counter-two__icon">
+                                            <span class="icon-checking"></span>
                                         </div>
-                                        <div class="text">
-                                            <p>Nsectetur cing elit</p>
-                                        </div>
+                                        <h3 class="odometer" data-count="6420">00</h3>
+                                        <p class="counter-two__text">Projects Completed</p>
                                     </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-draw-check-mark"></span>
+                                    <li class="counter-two__single wow fadeInUp" data-wow-delay="100ms">
+                                        <div class="counter-two__icon">
+                                            <span class="icon-recommend"></span>
                                         </div>
-                                        <div class="text">
-                                            <p>Suspe ndisse agittis leo</p>
-                                        </div>
+                                        <h3 class="odometer" data-count="9280">00</h3>
+                                        <p class="counter-two__text">Satisfied Clients</p>
                                     </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-draw-check-mark"></span>
+                                    <li class="counter-two__single wow fadeInUp" data-wow-delay="100ms">
+                                        <div class="counter-two__icon">
+                                            <span class="icon-consulting"></span>
                                         </div>
-                                        <div class="text">
-                                            <p>Aliquam tristique exe</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-draw-check-mark"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>Nisl sit amet tellus</p>
-                                        </div>
+                                        <h3 class="odometer" data-count="380">00</h3>
+                                        <p class="counter-two__text">Expert Teams</p>
                                     </li>
                                 </ul>
                             </div>
@@ -801,337 +1051,282 @@
                 </div>
             </div>
         </section>
-        <!--Why Choose One End-->
+        <!--End Counter Two-->
 
-        <!--Team One Start-->
-        <section class="team-one">
-            <div class="team-one-container">
+        <!--Start Get In Touch One-->
+        <section class="get-in-touch-one">
+            <div class="shape1"><img src="assets/images/update1.0/shape/get-in-touch-v1-shape1.png" alt="" /></div>
+            <div class="get-in-touch-one__bg"
+                style="background-image: url(assets/images/update1.0/resources/get-in-touch-v1-img1.jpg);">
+                <div class="get-in-touch-one__video-link">
+                    <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                        <div class="get-in-touch-one__video-icon">
+                            <span class="icon-play-button"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!--Start Get In Touch One Content-->
+                    <div class="col-xl-12">
+                        <div class="get-in-touch-one__content">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">Get in touch with us</span>
+                                <h2 class="section-title__title">you’re looking for Digital <br> Marketing Services?
+                                </h2>
+                            </div>
+                            <p class="get-in-touch-one__text1">Lorem ipsum is simply free text dolor sit amet,
+                                consectetur notted adipisicing elit sed do eiusmod tempor.</p>
+
+                            <div class="get-in-touch-one__content-middle">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="get-in-touch-one__content-middle-single">
+                                            <div class="get-in-touch-one__icon">
+                                                <span class="icon-checking"></span>
+                                            </div>
+                                            <h3 class="get-in-touch-one__title">quality Result</h3>
+                                            <p class="get-in-touch-one__text2">Duis aute irure dolor simply <br> free in
+                                                voluptate velit.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="get-in-touch-one__content-middle-single">
+                                            <div class="get-in-touch-one__icon">
+                                                <span class="icon-two-social-media"></span>
+                                            </div>
+                                            <h3 class="get-in-touch-one__title">high success rate</h3>
+                                            <p class="get-in-touch-one__text2">Duis aute irure dolor simply <br> free in
+                                                voluptate velit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="get-in-touch-one__progress">
+                                <div class="get-in-touch-one__progress-single">
+                                    <h4 class="get-in-touch-one__progress-title">marketing</h4>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="80%">
+                                            <div class="count-text">80%</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="get-in-touch-one__progress-single">
+                                    <h4 class="get-in-touch-one__progress-title">Development</h4>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="68%">
+                                            <div class="count-text">68%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Get In Touch One Content-->
+                </div>
+            </div>
+        </section>
+        <!--End Get In Touch One-->
+
+        <!--Start How We Works One-->
+        <section class="how-we-works-one">
+            <div class="container">
                 <div class="section-title text-center">
-                    <span class="section-title__tagline">our team members</span>
-                    <h2 class="section-title__title">Meet expert people</h2>
+                    <span class="section-title__tagline">3 steps process</span>
+                    <h2 class="section-title__title">how we works?</h2>
                 </div>
                 <div class="row">
+                    <!--Start How We Works One Single-->
+                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
+                        <div class="how-we-works-one__single text-center">
+                            <div class="shape1"><img src="assets/images/update1.0/shape/how-we-works-v1-shape1.png"
+                                    alt="" /></div>
+                            <div class="how-we-works-one__icon">
+                                <span class="icon-two-innovation-1"></span>
+                                <div class="count-box"></div>
+                            </div>
+                            <h2 class="how-we-works-one__title"><a href="#">Share your <br>concept</a></h2>
+                            <p class="how-we-works-one__text">Lorem ipsum dolor sit amet,<br> consectetur notted
+                                adipisicing elit<br> sed do eiusmod.</p>
+                        </div>
+                    </div>
+                    <!--End How We Works One Single-->
+
+                    <!--Start How We Works One Single-->
+                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.3s">
+                        <div class="how-we-works-one__single text-center">
+                            <div class="shape1"><img src="assets/images/update1.0/shape/how-we-works-v1-shape1.png"
+                                    alt="" /></div>
+                            <div class="how-we-works-one__icon">
+                                <span class="icon-webpage"></span>
+                                <div class="count-box"></div>
+                            </div>
+                            <h2 class="how-we-works-one__title"><a href="#">Let’s start <br>developments</a></h2>
+                            <p class="how-we-works-one__text">Lorem ipsum dolor sit amet,<br> consectetur notted
+                                adipisicing elit<br> sed do eiusmod.</p>
+                        </div>
+                    </div>
+                    <!--End How We Works One Single-->
+
+                    <!--Start How We Works One Single-->
+                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.5s">
+                        <div class="how-we-works-one__single text-center">
+                            <div class="how-we-works-one__icon">
+                                <span class="icon-recommend"></span>
+                                <div class="count-box"></div>
+                            </div>
+                            <h2 class="how-we-works-one__title"><a href="#">ready to <br> launch</a></h2>
+                            <p class="how-we-works-one__text">Lorem ipsum dolor sit amet,<br> consectetur notted
+                                adipisicing elit<br> sed do eiusmod.</p>
+                        </div>
+                    </div>
+                    <!--End How We Works One Single-->
+                </div>
+
+                <div class="row">
                     <div class="col-xl-12">
-                        <div class="team-one__carousel owl-theme owl-carousel">
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-1.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Jessica Brown</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Jessica Brown</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-2.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Kevin Martin</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Kevin Martin</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-3.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Rose ford</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Rose ford</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-4.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Mike hardson</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Mike hardson</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-1.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Jessica Brown</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Jessica Brown</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-2.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Kevin Martin</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Kevin Martin</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-3.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Rose ford</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Rose ford</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-4.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Mike hardson</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Mike hardson</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-1.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Jessica Brown</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Jessica Brown</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-2.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Kevin Martin</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Kevin Martin</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-3.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Rose ford</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Rose ford</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Team One Single-->
-                            <div class="team-one__single">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-one-img-4.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h4 class="team-one__name">Mike hardson</h4>
-                                    <p class="team-one__title">Designer</p>
-                                </div>
-                                <div class="team-one__hover">
-                                    <h4 class="team-one__hover-name">Mike hardson</h4>
-                                    <p class="team-one__hover-title">Designer</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="how-we-works-one__btn text-center">
+                            <a href="#" class="thm-btn">book our services now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--Team One End-->
+        <!--End How We Works One-->
 
-        <!--Testimonial One Start-->
-        <section class="testimonial-one">
-            <div class="testimonial-one__inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-4">
-                            <div class="testimonial-one__left">
-                                <div class="section-title text-left">
-                                    <span class="section-title__tagline">customer feedbacks</span>
-                                    <h2 class="section-title__title">what they’re talking about company?</h2>
+        <!--Start Blog Three-->
+        <section class="blog-three">
+            <div class="container">
+                <div class="row">
+                    <!--Start Blog Three Content-->
+                    <div class="col-xl-4">
+                        <div class="blog-three__content">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">our blog posts</span>
+                                <h2 class="section-title__title">Latest News & <br> Articles from the <br>blog
+                                    posts</h2>
+                            </div>
+                            <p class="blog-three__text">Lorem Ipsum is simply free text nibh vel velit auctor
+                                aliquet. Aenean sollic tudin, lorem is simply you are going quis bibendum.</p>
+                        </div>
+                    </div>
+                    <!--End Blog Three Content-->
+
+                    <!--Start Blog Three Right-->
+                    <div class="col-xl-8">
+                        <div class="blog-three__right">
+                            <div class="blog-three__carousel owl-carousel owl-theme">
+                                <!--Start Blog One Single-->
+                                <div class="blog-one__single">
+                                    <div class="blog-one__img">
+                                        <img src="assets/images/blog/blog-one-img-1.jpg" alt="">
+                                        <a href="blog-details.html">
+                                            <span class="blog-one__plus"></span>
+                                        </a>
+                                        <div class="blog-one__date">
+                                            <p>25 <br> AUG</p>
+                                        </div>
+                                    </div>
+                                    <div class="blog-one__content">
+                                        <ul class="list-unstyled blog-one__meta">
+                                            <li><a href="blog-details.html"><i class="far fa-folder-open"></i>
+                                                    Business</a></li>
+                                            <li><a href="blog-details.html"><i class="far fa-comments"></i> 02
+                                                    Comments</a>
+                                            </li>
+                                        </ul>
+                                        <h3 class="blog-one__title">
+                                            <a href="blog-details.html">Get few solutions to hire a best candidate</a>
+                                        </h3>
+                                        <div class="blog-one__person">
+                                            <div class="blog-one__person-img">
+                                                <img src="assets/images/blog/blog-one-person-img-1.jpg" alt="">
+                                            </div>
+                                            <div class="blog-one__person-content">
+                                                <p>by Mike Hardson</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <!--End Blog One Single-->
+
+                                <!--Start Blog One Single-->
+                                <div class="blog-one__single">
+                                    <div class="blog-one__img">
+                                        <img src="assets/images/blog/blog-one-img-2.jpg" alt="">
+                                        <a href="blog-details.html">
+                                            <span class="blog-one__plus"></span>
+                                        </a>
+                                        <div class="blog-one__date">
+                                            <p>25 <br> AUG</p>
+                                        </div>
+                                    </div>
+                                    <div class="blog-one__content">
+                                        <ul class="list-unstyled blog-one__meta">
+                                            <li><a href="blog-details.html"><i class="far fa-folder-open"></i>
+                                                    Business</a></li>
+                                            <li><a href="blog-details.html"><i class="far fa-comments"></i> 02
+                                                    Comments</a>
+                                            </li>
+                                        </ul>
+                                        <h3 class="blog-one__title">
+                                            <a href="blog-details.html">Bring to the table win-win survival
+                                                strategies</a>
+                                        </h3>
+                                        <div class="blog-one__person">
+                                            <div class="blog-one__person-img">
+                                                <img src="assets/images/blog/blog-one-person-img-1.jpg" alt="">
+                                            </div>
+                                            <div class="blog-one__person-content">
+                                                <p>by Mike Hardson</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End Blog One Single-->
+
+                                <!--Start Blog One Single-->
+                                <div class="blog-one__single">
+                                    <div class="blog-one__img">
+                                        <img src="assets/images/blog/blog-one-img-3.jpg" alt="">
+                                        <a href="blog-details.html">
+                                            <span class="blog-one__plus"></span>
+                                        </a>
+                                        <div class="blog-one__date">
+                                            <p>25 <br> AUG</p>
+                                        </div>
+                                    </div>
+                                    <div class="blog-one__content">
+                                        <ul class="list-unstyled blog-one__meta">
+                                            <li><a href="blog-details.html"><i class="far fa-folder-open"></i>
+                                                    Business</a></li>
+                                            <li><a href="blog-details.html"><i class="far fa-comments"></i> 02
+                                                    Comments</a>
+                                            </li>
+                                        </ul>
+                                        <h3 class="blog-one__title">
+                                            <a href="blog-details.html">Capitalize on low hanging fruit to identify
+                                                a</a>
+                                        </h3>
+                                        <div class="blog-one__person">
+                                            <div class="blog-one__person-img">
+                                                <img src="assets/images/blog/blog-one-person-img-1.jpg" alt="">
+                                            </div>
+                                            <div class="blog-one__person-content">
+                                                <p>by Mike Hardson</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End Blog One Single-->
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="testimonial-one__right">
-                    <div class="testimonial-one__carousel owl-theme owl-carousel">
-                        <!--Testimonial One Single-->
-                        <div class="testimonial-one__single">
-                            <p class="testimonial-one__text">Lorem ipsum is simply free text dolor sit amet, consect
-                                notted
-                                adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <div class="testimonial-one__client-info">
-                                <div class="testimonial-one__client-img">
-                                    <img src="assets/images/testimonial/testimonial-one-client-img-1.jpg" alt="">
-                                    <div class="testimonial-one__quote">
-                                        <img src="assets/images/testimonial/testimonial-one-quote.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="testimonial-one__client-details">
-                                    <h4 class="testimonial-one__client-name">Kevin Martin</h4>
-                                    <p class="testimonial-one__client-title">customer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Testimonial One Single-->
-                        <div class="testimonial-one__single">
-                            <p class="testimonial-one__text">Lorem ipsum is simply free text dolor sit amet, consect
-                                notted
-                                adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <div class="testimonial-one__client-info">
-                                <div class="testimonial-one__client-img">
-                                    <img src="assets/images/testimonial/testimonial-one-client-img-2.jpg" alt="">
-                                    <div class="testimonial-one__quote">
-                                        <img src="assets/images/testimonial/testimonial-one-quote.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="testimonial-one__client-details">
-                                    <h4 class="testimonial-one__client-name">chsritine eve</h4>
-                                    <p class="testimonial-one__client-title">customer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Testimonial One Single-->
-                        <div class="testimonial-one__single">
-                            <p class="testimonial-one__text">Lorem ipsum is simply free text dolor sit amet, consect
-                                notted
-                                adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <div class="testimonial-one__client-info">
-                                <div class="testimonial-one__client-img">
-                                    <img src="assets/images/testimonial/testimonial-one-client-img-3.jpg" alt="">
-                                    <div class="testimonial-one__quote">
-                                        <img src="assets/images/testimonial/testimonial-one-quote.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="testimonial-one__client-details">
-                                    <h4 class="testimonial-one__client-name">john smith</h4>
-                                    <p class="testimonial-one__client-title">customer</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!--End Blog Three Right-->
                 </div>
 
                 <div class="owl-theme">
@@ -1139,324 +1334,19 @@
                         <div class="custom-nav owl-nav"></div>
                     </div>
                 </div>
-
             </div>
         </section>
-        <!--Testimonial One End-->
+        <!--End Blog Three-->
 
-        <!--Qutiiz Ready Start-->
-        <section class="qutiiz-ready">
-            <div class="qutiiz-ready-bg-box">
-                <div class="qutiiz-ready-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-                    style="background-image: url(assets/images/backgrounds/qutiiz-ready-bg.jpg)"></div>
-            </div>
-            <div class="container">
-                <div class="qutiiz-ready__inner">
-                    <div class="qutiiz-ready__icon">
-                        <span class="icon-wealth"></span>
-                    </div>
-                    <h2 class="qutiiz-ready__title">qutiiz is a ready to <span>protect</span> <br> your businesses</h2>
-                </div>
-            </div>
-        </section>
-        <!--Qutiiz Ready End-->
-
-        <!--Financial Advice Start-->
-        <section class="financial-advice">
-            <div class="financial-advice-bg"
-                style="background-image: url(assets/images/shapes/financial-advice-shape.png)"></div>
-            <div class="container">
-                <div class="financial-advice__tab-box tabs-box">
-                    <ul class="tab-buttons clearfix list-unstyled">
-                        <li data-tab="#business" class="tab-btn"><span>Business Growth</span></li>
-                        <li data-tab="#financial" class="tab-btn active-btn"><span>Financial Advices</span></li>
-                        <li data-tab="#soltution" class="tab-btn"><span>marketing soltution</span></li>
-                    </ul>
-                    <div class="tabs-content">
-                        <!--tab-->
-                        <div class="tab" id="business">
-                            <div class="tabs-content__inner">
-                                <div class="row">
-                                    <div class="col-xl-5">
-                                        <div class="tabs-content__left">
-                                            <ul class="list-unstyled tabs-content__points">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-draw-check-mark"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h4>Highest Success Rates</h4>
-                                                        <p>Lorem nibh vel velit a aliqu. Aenean so tudin, lorem is text
-                                                            quis bibendum.</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-draw-check-mark"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h4>we grow businesses</h4>
-                                                        <p>Lorem nibh vel velit a aliqu. Aenean so tudin, lorem is text
-                                                            quis bibendum.</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-7">
-                                        <div class="tabs-content__right">
-                                            <div class="tabs-content__experience-box">
-                                                <div class="tabs-content__experience-content">
-                                                    <div class="tabs-content__experience-icon">
-                                                        <span class="icon-consulting"></span>
-                                                    </div>
-                                                    <h3 class="tabs-content__experience-title">We have over 18 years of
-                                                        experience</h3>
-                                                    <a href="about.html" class="tabs-content__experience-btn">Read
-                                                        More</a>
-                                                </div>
-                                                <div class="tabs-content__experience-img">
-                                                    <img src="assets/images/resources/tabs-content-experience-img.jpg"
-                                                        alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--tab-->
-                        <div class="tab active-tab" id="financial">
-                            <div class="tabs-content__inner">
-                                <div class="row">
-                                    <div class="col-xl-5">
-                                        <div class="tabs-content__left">
-                                            <ul class="list-unstyled tabs-content__points">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-draw-check-mark"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h4>Highest Success Rates</h4>
-                                                        <p>Lorem nibh vel velit a aliqu. Aenean so tudin, lorem is text
-                                                            quis bibendum.</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-draw-check-mark"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h4>we grow businesses</h4>
-                                                        <p>Lorem nibh vel velit a aliqu. Aenean so tudin, lorem is text
-                                                            quis bibendum.</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-7">
-                                        <div class="tabs-content__right">
-                                            <div class="tabs-content__experience-box">
-                                                <div class="tabs-content__experience-content">
-                                                    <div class="tabs-content__experience-icon">
-                                                        <span class="icon-consulting"></span>
-                                                    </div>
-                                                    <h3 class="tabs-content__experience-title">We have over 18 years of
-                                                        experience</h3>
-                                                    <a href="about.html" class="tabs-content__experience-btn">Read
-                                                        More</a>
-                                                </div>
-                                                <div class="tabs-content__experience-img">
-                                                    <img src="assets/images/resources/tabs-content-experience-img.jpg"
-                                                        alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--tab-->
-                        <div class="tab " id="soltution">
-                            <div class="tabs-content__inner">
-                                <div class="row">
-                                    <div class="col-xl-5">
-                                        <div class="tabs-content__left">
-                                            <ul class="list-unstyled tabs-content__points">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-draw-check-mark"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h4>Highest Success Rates</h4>
-                                                        <p>Lorem nibh vel velit a aliqu. Aenean so tudin, lorem is text
-                                                            quis bibendum.</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-draw-check-mark"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <h4>we grow businesses</h4>
-                                                        <p>Lorem nibh vel velit a aliqu. Aenean so tudin, lorem is text
-                                                            quis bibendum.</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-7">
-                                        <div class="tabs-content__right">
-                                            <div class="tabs-content__experience-box">
-                                                <div class="tabs-content__experience-content">
-                                                    <div class="tabs-content__experience-icon">
-                                                        <span class="icon-consulting"></span>
-                                                    </div>
-                                                    <h3 class="tabs-content__experience-title">We have over 18 years of
-                                                        experience</h3>
-                                                    <a href="about.html" class="tabs-content__experience-btn">Read
-                                                        More</a>
-                                                </div>
-                                                <div class="tabs-content__experience-img">
-                                                    <img src="assets/images/resources/tabs-content-experience-img.jpg"
-                                                        alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="financial-advice__bottom">
-                    <p class="financial-advice__bottom-text">qutiiz services built specifically for your business. <a
-                            href="about.html">Find Your Solution</a></p>
-                </div>
-            </div>
-        </section>
-        <!--Financial Advice End-->
-
-        <!--Blog One Start-->
-        <section class="blog-one">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline">our blog posts</span>
-                    <h2 class="section-title__title">News & Articles</h2>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                        <!--Blog One Start-->
-                        <div class="blog-one__single">
-                            <div class="blog-one__img">
-                                <img src="assets/images/blog/blog-one-img-1.jpg" alt="">
-                                <a href="blog-details.html">
-                                    <span class="blog-one__plus"></span>
-                                </a>
-                                <div class="blog-one__date">
-                                    <p>25 <br> AUG</p>
-                                </div>
-                            </div>
-                            <div class="blog-one__content">
-                                <ul class="list-unstyled blog-one__meta">
-                                    <li><a href="blog-details.html"><i class="far fa-folder-open"></i> Business</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-comments"></i> 02 Comments</a>
-                                    </li>
-                                </ul>
-                                <h3 class="blog-one__title">
-                                    <a href="blog-details.html">Get few solutions to hire a best candidate</a>
-                                </h3>
-                                <div class="blog-one__person">
-                                    <div class="blog-one__person-img">
-                                        <img src="assets/images/blog/blog-one-person-img-1.jpg" alt="">
-                                    </div>
-                                    <div class="blog-one__person-content">
-                                        <p>by Mike Hardson</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                        <!--Blog One Start-->
-                        <div class="blog-one__single">
-                            <div class="blog-one__img">
-                                <img src="assets/images/blog/blog-one-img-2.jpg" alt="">
-                                <a href="blog-details.html">
-                                    <span class="blog-one__plus"></span>
-                                </a>
-                                <div class="blog-one__date">
-                                    <p>25 <br> AUG</p>
-                                </div>
-                            </div>
-                            <div class="blog-one__content">
-                                <ul class="list-unstyled blog-one__meta">
-                                    <li><a href="blog-details.html"><i class="far fa-folder-open"></i> Business</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-comments"></i> 02 Comments</a>
-                                    </li>
-                                </ul>
-                                <h3 class="blog-one__title">
-                                    <a href="blog-details.html">Bring to the table win-win survival strategies</a>
-                                </h3>
-                                <div class="blog-one__person">
-                                    <div class="blog-one__person-img">
-                                        <img src="assets/images/blog/blog-one-person-img-1.jpg" alt="">
-                                    </div>
-                                    <div class="blog-one__person-content">
-                                        <p>by Mike Hardson</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                        <!--Blog One Start-->
-                        <div class="blog-one__single">
-                            <div class="blog-one__img">
-                                <img src="assets/images/blog/blog-one-img-3.jpg" alt="">
-                                <a href="blog-details.html">
-                                    <span class="blog-one__plus"></span>
-                                </a>
-                                <div class="blog-one__date">
-                                    <p>25 <br> AUG</p>
-                                </div>
-                            </div>
-                            <div class="blog-one__content">
-                                <ul class="list-unstyled blog-one__meta">
-                                    <li><a href="blog-details.html"><i class="far fa-folder-open"></i> Business</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-comments"></i> 02 Comments</a>
-                                    </li>
-                                </ul>
-                                <h3 class="blog-one__title">
-                                    <a href="blog-details.html">Capitalize on low hanging fruit to identify a</a>
-                                </h3>
-                                <div class="blog-one__person">
-                                    <div class="blog-one__person-img">
-                                        <img src="assets/images/blog/blog-one-person-img-1.jpg" alt="">
-                                    </div>
-                                    <div class="blog-one__person-content">
-                                        <p>by Mike Hardson</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Blog One End-->
-
-        <!--CTA One Start-->
-        <section class="cta-one">
+        <!--Start Cta One-->
+        <section class="cta-one cta-one--two">
+            <div class="cta-one-shape-1"></div>
+            <div class="cta-one-shape-2"></div>
+            <div class="cta-one-shape-3"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="cta-one__inner wow fadeInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-                            <div class="cta-one-shape-1"></div>
-                            <div class="cta-one-shape-2"></div>
-                            <div class="cta-one-shape-3"></div>
                             <div class="cta-one__left">
                                 <h2 class="cta-one__title">the passion trying & skill can make <br> a top-performing
                                     company</h2>
@@ -1469,7 +1359,7 @@
                 </div>
             </div>
         </section>
-        <!--CTA One End-->
+        <!--End Cta One-->
 
         <!--Site Footer Start-->
         <footer class="site-footer">
@@ -1487,11 +1377,10 @@
                         </div>
                         <div class="site-footer__top-right">
                             <div class="site-footer__top-right-social">
-                                <a href="https://twitter.com/dax_ads"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://www.facebook.com/daxadsofficial"><i class="fab fa-facebook"></i></a>
-                                        <a href="https://www.instagram.com/dax_ads/?hl=en"><i class="fab fa-instagram"></i></a>
-                                        <a href="https://www.linkedin.com/company/dax-ads/?originalSubdomain=in"><i class="fab fa-linkedin"></i></a>
-                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1499,7 +1388,8 @@
             </div>
             <div class="site-footer__middle">
                 <div class="site-footer-shape"
-                    style="background-image: url(assets/images/shapes/site-footer-shape.png)"></div>
+                    style="background-image: url(assets/images/shapes/site-footer-shape.png)">
+                </div>
                 <div class="container">
                     <div class="site-footer__middle-inner">
                         <div class="row">
@@ -1589,7 +1479,8 @@
                                 <div class="site-footer__bottom-inner">
                                     <div class="site-footer__bottom-left">
                                         <p class="site-footer__bottom-text">© Copyrights, 2021 <a
-                                                href="#">BracketWeb</a></p>
+                                                href="#">BracketWeb</a>
+                                        </p>
                                     </div>
                                     <div class="site-footer__bottom-right">
                                         <ul class="list-unstyled site-footer__bottom-menu">
@@ -1636,11 +1527,10 @@
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="https://twitter.com/dax_ads"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://www.facebook.com/daxadsofficial"><i class="fab fa-facebook"></i></a>
-                                        <a href="https://www.instagram.com/dax_ads/?hl=en"><i class="fab fa-instagram"></i></a>
-                                        <a href="https://www.linkedin.com/company/dax-ads/?originalSubdomain=in"><i class="fab fa-linkedin"></i></a>
-                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
 
