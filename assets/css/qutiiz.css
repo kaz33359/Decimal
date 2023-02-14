@@ -136,6 +136,57 @@ ul {
   z-index: -1;
 }
 
+
+
+.thm-btn1 {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  outline: none !important;
+  background-color: var(--qutiiz-base);
+  color: var(--qutiiz-white);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 8px 20px 8px;
+  transition: all 0.3s linear;
+  overflow: hidden;
+  z-index: 1;
+  font-family: var(--qutiiz-font-two);
+  letter-spacing: 0.1em;
+  border-radius: var(--qutiiz-bdr-radius);
+}
+
+.thm-btn1:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--qutiiz-black);
+  transform: scale(0);
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  border-radius: var(--qutiiz-bdr-radius);
+  opacity: 1;
+  z-index: -1;
+}
+
+.thm-btn1:hover {
+  color: var(--qutiiz-white);
+}
+
+.thm-btn1:hover:after {
+  opacity: 1;
+  transform: scale(1);
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
 .thm-btn {
   position: relative;
   display: inline-block;
@@ -176,6 +227,7 @@ ul {
   opacity: 1;
   z-index: -1;
 }
+
 
 .thm-btn:hover:after {
   opacity: 1;
@@ -4233,6 +4285,15 @@ ul {
   position: relative;
   display: block;
   background-color: var(--qutiiz-black);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+
+.blog-one__img1 {
+  position: relative;
+  display: block;
+  /* background-color: var(--qutiiz-black); */
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   overflow: hidden;
@@ -9895,7 +9956,7 @@ ul {
 .team-details__top {
   position: relative;
   display: block;
-  padding: 0px 0px 92px;
+  /* padding: 0px 0px 92px; */
 }
 
 .team-details__top-left {
@@ -9909,7 +9970,7 @@ ul {
   position: relative;
   display: block;
   border-radius: var(--qutiiz-bdr-radius);
-  background: var(--qutiiz-black);
+  /* background: var(--qutiiz-black); */
   overflow: hidden;
   z-index: 1;
 }
