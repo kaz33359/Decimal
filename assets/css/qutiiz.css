@@ -7382,6 +7382,19 @@ ul {
   border-radius: var(--qutiiz-bdr-radius);
 }
 
+.project-details__img1 {
+  position: relative;
+  display: block;
+  /* background-color: var(--qutiiz-black); */
+  border-radius: var(--qutiiz-bdr-radius);
+}
+
+.project-details__img1 img {
+  width: 100%;
+  /* mix-blend-mode: luminosity; */
+  border-radius: var(--qutiiz-bdr-radius);
+}
+
 .project-details__content {
   position: relative;
   display: block;
